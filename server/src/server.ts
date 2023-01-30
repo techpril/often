@@ -15,7 +15,7 @@ app.get('/habits', async() => {
     const habits = await prisma.habit.findMany({
         where: {
             title: {
-                startsWith: 'Beber'
+                startsWith: 'Me'
             }
         }
     })
