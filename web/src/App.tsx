@@ -1,3 +1,5 @@
+import './styles/global.css';
+
 import Habits from "./components/Habits"
 
 function App() {
@@ -5,7 +7,9 @@ function App() {
 
   return (
     <div className="App">
-      <Habits />
+      <Habits completed={1}/>
+      <Habits completed={3}/>
+
        
     </div>
   )
