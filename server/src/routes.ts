@@ -7,15 +7,12 @@ export async function appRoutes(app: FastifyInstance){
         return 'Hey'
     })
 
-    app.get('/habits', async() => {
-        const habits = await prisma.habit.findMany({
-            // where: {
-            //     title: {
-            //         startsWith: 'Me '
-            //     }
-            // }
-        })
-        return habits
+    //Criar habito
+    app.post('/habits', async() => {
+
+
+
+        
     })
 
 }
