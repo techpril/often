@@ -1,6 +1,6 @@
 import { Check } from "phosphor-react";
 import * as Checkbox from '@radix-ui/react-checkbox'
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
 
 const availableWeekDays =[
     'Domingo',
@@ -87,8 +87,4 @@ export function NewHabitForm(){
             </button>
         </form>
     )
-}
-
-function useState(arg0: string): [any, any] {
-    throw new Error("Function not implemented.");
 }
