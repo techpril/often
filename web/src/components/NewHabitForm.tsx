@@ -60,7 +60,7 @@ export function NewHabitForm(){
                 autoFocus
                 value={title}
                 onChange={event => setTitle(event.target.value)}
-            />
+            /> 
 
             <label htmlFor="" className="font-semibold leading-tight mt-4">
                 Qual a recorrência?   
