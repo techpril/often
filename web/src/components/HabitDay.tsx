@@ -38,7 +38,7 @@ export function HabitDay({completed = 0, amount = 0, date}: HabitDayProps) {
 
               <ProgressBar progress={completedPercentage} />
 
-              <HabitsList />
+              <HabitsList date={date} />
 
               <Popover.Arrow height={10} width={16} className="fill-zinc-900" />
           </Popover.Content>
